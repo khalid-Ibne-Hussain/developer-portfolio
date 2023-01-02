@@ -16,7 +16,7 @@ p {
     color: orange;
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 150px;
     /* padding-bottom: 200px; */
@@ -48,4 +48,27 @@ section {
     background-repeat: no-repeat;
     background-size: cover;
 
+}
+
+.experience {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 40px gray;
+    border-left: 7px solid blue;
+}
+
+#full-dev {
+    border-left: 7px solid tomato;
+}
+
+#baby-web {
+    border-left: 7px solid blue;
+}
+
+footer p {
+    text-align: center;
 }
