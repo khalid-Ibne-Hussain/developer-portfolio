@@ -5,7 +5,11 @@ body {
 
 h1 {
     font-size: 50px;
-    ;
+
+}
+
+p {
+    text-align: justify;
 }
 
 .orange-color {
@@ -14,11 +18,14 @@ h1 {
 
 section {
     display: flex;
+    margin-bottom: 150px;
+    /* padding-bottom: 200px; */
 }
 
 .half-width {
     width: 50%;
     padding-left: 5%;
+
 }
 
 .half-width img {
